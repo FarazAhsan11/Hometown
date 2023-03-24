@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+border: 5px solid white;
+border-radius: 20px;
+}
+.hero{
+
+    color: white;
+    padding: 140px;
+  height: 200px;
+    background-image: url("images/town.jpg");
+   background-repeat: no-repeat;
+  background-size: 100% 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+border: 1px solid black;
+
+
+}
+#tname{
+    
+    
+    text-shadow:0px 0px 10px black;
+    text-align: center;
+    border: 1px solid #b07d62;
+      background: #b07d62;
+  padding: 6px 13px;
+  border-radius: 5px;
+ 
+  margin-top: 10px;
+margin-bottom: 20px;    
+}
+#tabout{
+ text-shadow:0px 0px 10px black;
+    text-align: center;
+    border: 1px solid #b07d62 ;
+      background: #b07d62;
+  padding: 15px 24px;
+  border-radius: 5px;
+ 
+    margin: 10px;
+    
+}
+
+img {
+   margin-top: 10px;
+    width:170px;
+    height:170px ;
+
+border-radius: 100px;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-start;
+margin: 30px;
+
+}
+.act-three{
+    flex-direction: column;
+margin: 50px; 
+}
+.activity-section{
+    text-shadow:0px 0px 5px black;
+    background-color:#7f5539;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color:  white;
+   padding-bottom:5px;
+    
+}
+.activities-title{
+    margin-bottom: -30px;
+  
+    color: white;
+    padding: 15px 24px;
+  border-radius: 5px;
+  border-radius: 5px;
+}
+.guide{
+  width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #432818;
+    color: #f2e9e4;
+    border-bottom: 8px solid black;
+    border-left: 8px solid black;
+ margin-top:50px; 
+ margin-bottom: 50px;
+text-shadow:0px 0px 5px black;
+}
+
+
+#gimg{
+width: 150 px;
+border-radius: 0px;
+height: 200px;}
+.back{
+    background: #9c6644;
+ padding-bottom: 50px;
+ padding-top: 50px;
+    
+}
+
+    
+    
